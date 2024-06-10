@@ -51,7 +51,7 @@ static long hello_control0(const char *args, char *__user out_msg, int outlen)
 
 static long hello_control1(void *a1, void *a2, void *a3)
 {
-    pr_info("kpm hello control1, a1: %llx, a2: %llx, a3: %llx\n", a1, a2, a3);
+    pr_info("kpm 666 hello control1, a1: %llx, a2: %llx, a3: %llx\n", a1, a2, a3);
     return 0;
 }
 
