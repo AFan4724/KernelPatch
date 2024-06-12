@@ -80,6 +80,7 @@ uint64_t _kp_region_end = 0;
 
 uint64_t kimage_voffset = 0;
 uint64_t linear_voffset = 0;
+KP_EXPORT_SYMBOL(linear_voffset);
 uint64_t kernel_va = 0;
 uint64_t kernel_pa = 0;
 int64_t kernel_size = 0;
