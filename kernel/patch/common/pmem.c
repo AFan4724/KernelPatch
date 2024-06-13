@@ -6,6 +6,7 @@
 #include <linux/errno.h>
 #include <linux/sched/mm.h>
 #include <pgtable.h>
+#include <symbol.h>
 #include <linux/err.h>
 
 //void free_task(struct task_struct *tsk)
