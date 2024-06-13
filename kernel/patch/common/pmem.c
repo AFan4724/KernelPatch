@@ -100,3 +100,4 @@ phys_addr_t pid_virt_to_phys(pid_t pid, uintptr_t vaddr)
     mmput(mm);
     return rc;
 }
+KP_EXPORT_SYMBOL(pid_virt_to_phys);
